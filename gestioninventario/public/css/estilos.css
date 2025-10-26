@@ -1,0 +1,108 @@
+/* General */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #1877F2;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877F2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #145DBF;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Dashboard */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Menú lateral */
+.menu-lateral {
+    width: 220px;
+    background-color: #1877F2;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lateral h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-lateral a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.menu-lateral a:hover {
+    background-color: #145DBF;
+}
+
+/* Contenido principal */
+.contenido {
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+.seccion h2 {
+    color: #1877F2;
+    margin-bottom: 20px;
+}
